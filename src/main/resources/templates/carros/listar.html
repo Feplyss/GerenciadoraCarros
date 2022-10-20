@@ -39,7 +39,7 @@
                             <td class="align-middle" th:text="${carro.chave.codigo}"></td>
                             <td class="align-middle" th:text="${carro.fabricante.nome}"></td>
                             <td class="align-middle">
-                                <p th:each="acessorio : ${carro.acessorios}" th:text="${acessorio.nome}"></p>
+                                <p style="margin: 0px" th:each="acessorio : ${carro.acessorios}" th:text="${acessorio.nome}"></p>
                             </td>
                            
                             <td class="text-center align-middle">
